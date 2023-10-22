@@ -15,7 +15,6 @@ def bid(player_name, player_bid):
         player = input("Are they any other users? Insert yes or no?")
         clear()
         if player == "no":
-            player = "no"
             break
         elif player == "yes":
             player_name = input("What's your name?\n")
